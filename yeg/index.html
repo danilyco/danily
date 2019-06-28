@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Invoice</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="license" href="http://www.opensource.org/licenses/mit-license/">
+		<script src="script.js"></script>
+	</head>
+	<body>
+	
+		<header>			
+			<data contenteditable>
+					<p>Invoice # 101138</p>
+					<p>Date January 1, 2019</p>
+			</data>
+			
+			<address contenteditable>
+				<p>JAY Trucking</p>
+				<p>13445 Stagg Street<br>Panorama City, CA 91402</p>
+				<p>(818) 271-9999</p>
+			</address>
+			
+			<!--span><img alt="" src="logo.png"></span-->		
+		</header>
+			<table class="inventory">
+				<thead>
+					<tr>
+						<th><span contenteditable>DATE</span></th>
+						<th><span contenteditable>TICKET</span></th>
+						<th><span contenteditable>COMPANY</span></th>
+						<th><span contenteditable>LOCATION</span></th>
+						<th><span contenteditable>HOURS</span></th>
+						<th><span contenteditable>RATE</span></th>
+						<th><span contenteditable>TOTAL</span></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a class="cut">-</a><span contenteditable></span></td>										
+						<td><span contenteditable></span></td>
+						<td><span contenteditable></span></td>
+						<td><span contenteditable></span></td>
+						<td><span contenteditable></span></td>
+						<td><span data-prefix>$</span><span contenteditable></span></td>						
+						<td><span data-prefix>$</span><span></span></td>
+					</tr>
+				</tbody>
+			</table>
+			<a class="add">+</a>
+			<table class="balance">
+				<tr>
+					<th><span contenteditable>Total</span></th>
+					<td><span data-prefix>$</span><span>0.00</span></td>
+				</tr>
+				 <tr>
+					<th><span contenteditable>Brocker Rate %</span></th>
+					<td></span><span contenteditable></span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>Brocker Fee</span></th>
+					<td><span data-prefix>$</span><span contenteditable></span></td>
+				</tr>
+				<tr>
+					<th><span contenteditable>Balance Due</span></th>
+					<td><span data-prefix>$</span><span>0.00</span></td>					
+				</tr>
+			</table>
+
+		</article>
+	</body>
+</html>
